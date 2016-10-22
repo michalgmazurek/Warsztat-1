@@ -160,6 +160,11 @@ button {
 	height: 200px;
 	background-image: url(images/box2_img.jpg);
 }
+
+.middleCentre span {
+	text-transform: uppercase;
+}
+
 .middleRight {
 	float: left;
 	width: 300px;
@@ -460,6 +465,7 @@ textarea {
 	background-color: transparent;
 	color: white;
 	outline: 1px solid #54D1B6;
+	z-index: 5;
 }
 
 .check {
@@ -471,6 +477,7 @@ textarea {
 	background-image: url(images/form_ok.jpg);
 	background-size: cover;
 	opacity: 0;
+	z-index: 1;
 }
 
 .checkbox:checked ~ .check {
